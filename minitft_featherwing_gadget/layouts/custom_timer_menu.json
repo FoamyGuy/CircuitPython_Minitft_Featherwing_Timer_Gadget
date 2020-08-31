@@ -1,0 +1,67 @@
+{
+  "view_type": "AbsoluteLayout",
+  "sub_views": [
+
+    {
+      "view_type": "BitmapLabel",
+      "id":"plus1_lbl",
+      "attributes":{
+        "scale": 2,
+        "anchored_position": ["DISPLAY_WIDTH/2", "-6"],
+        "color": "0x70ad47",
+        "anchor_point": [0.5, 0.0],
+        "text": "+1",
+      }
+    },
+    {
+      "view_type": "BitmapLabel",
+      "id":"plus5_lbl",
+      "attributes":{
+        "scale": 2,
+        "anchored_position": ["DISPLAY_WIDTH-2", "DISPLAY_HEIGHT/2-2"],
+        "color": "0x70ad47",
+        "anchor_point": [1.0, 0.5],
+        "text": "+5",
+        "padding": 2,
+        "line_spacing": 1.8
+      }
+    },
+    {
+      "view_type": "BitmapLabel",
+      "id":"minus1_lbl",
+      "attributes":{
+        "scale": 2,
+        "anchored_position": ["DISPLAY_WIDTH/2", "DISPLAY_HEIGHT-2"],
+        "color": "0x70ad47",
+        "anchor_point": [0.5, 1.0],
+        "text": "-1",
+        "padding": 2,
+        "line_spacing": 1.8
+      }
+    },
+    {
+      "view_type": "BitmapLabel",
+      "id":"minus5_lbl",
+      "attributes":{
+        "scale": 2,
+        "anchored_position": ["2", "DISPLAY_HEIGHT/2-2"],
+        "color": "0x70ad47",
+        "anchor_point": [0.0, 0.5],
+        "text": "-5",
+        "padding": 2,
+        "line_spacing": 1.8
+      }
+    },
+    {
+      "view_type": "BitmapLabel",
+      "id":"setting_lbl",
+      "attributes":{
+        "scale": 2,
+        "anchored_position": ["DISPLAY_WIDTH/2", "DISPLAY_HEIGHT/2-2"],
+        "color": "0x70ad47",
+        "anchor_point": [0.5, 0.5],
+        "text": "0",
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "view_type": "AbsoluteLayout",
+  "sub_views": [
+
+    {
+      "view_type": "BitmapLabel",
+      "id":"time_counting_lbl",
+      "attributes":{
+        "scale": 3,
+        "color": "0x4472c4",
+        "anchored_position": ["2", "DISPLAY_HEIGHT/2"],
+        "anchor_point": [0.0, 0.5],
+        "text": "Stopwatch",
+        "max_glyphs": 60,
+      }
+    }
+  ]
+}

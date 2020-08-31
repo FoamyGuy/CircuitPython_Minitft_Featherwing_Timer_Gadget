@@ -1,0 +1,63 @@
+{
+  "view_type": "AbsoluteLayout",
+  "sub_views": [
+
+    {
+      "view_type": "BitmapLabel",
+      "id":"5min_lbl",
+      "attributes":{
+
+        "anchored_position": ["DISPLAY_WIDTH/2", "2"],
+        "color": "0xFFFFFF",
+        "anchor_point": [0.5, 0.0],
+        "text": "5 Min",
+        "padding": 2,
+        "max_glyphs": 60,
+        "background_color": "0x4472c4",
+        "line_spacing": 1.8
+      }
+    },
+    {
+      "view_type": "BitmapLabel",
+      "id":"10min_lbl",
+      "attributes":{
+        "anchored_position": ["DISPLAY_WIDTH-2", "DISPLAY_HEIGHT/2"],
+        "color": "0xFFFFFF",
+        "anchor_point": [1.0, 1.0],
+        "text": "10 Min",
+        "padding": 2,
+        "max_glyphs": 60,
+        "background_color": "0x4472c4",
+        "line_spacing": 1.8
+      }
+    },
+    {
+      "view_type": "BitmapLabel",
+      "id":"25min_lbl",
+      "attributes":{
+        "anchored_position": ["DISPLAY_WIDTH/2", "DISPLAY_HEIGHT-10"],
+        "color": "0xFFFFFF",
+        "anchor_point": [0.5, 1.0],
+        "text": "25 Min",
+        "padding": 2,
+        "max_glyphs": 60,
+        "background_color": "0x4472c4",
+        "line_spacing": 1.8
+      }
+    },
+    {
+      "view_type": "BitmapLabel",
+      "id":"50min_lbl",
+      "attributes":{
+        "anchored_position": ["2", "DISPLAY_HEIGHT/2"],
+        "color": "0xFFFFFF",
+        "anchor_point": [0.0, 1.0],
+        "text": "50 Min",
+        "padding": 2,
+        "max_glyphs": 60,
+        "background_color": "0x4472c4",
+        "line_spacing": 1.8
+      }
+    }
+  ]
+}
